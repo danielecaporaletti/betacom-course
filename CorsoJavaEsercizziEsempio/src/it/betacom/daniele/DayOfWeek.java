@@ -1,0 +1,15 @@
+package it.betacom.daniele;
+
+//ESEMPIO DI ENUM: CREARE UNA CLASSE ENUM CONTENENTE I GIORNI DELLA SETTIMANA
+
+public enum DayOfWeek {
+	
+    MONDAY,
+    TUESDAY,
+    WEDNESDAY,
+    THURSDAY,
+    FRIDAY,
+    SATURDAY,
+    SUNDAY
+
+}

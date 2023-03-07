@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_202"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/danie/Academy-Projects/CorsoJava-ContoCorrente/ExternalJAR/csv/opencsv-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/danie/Academy-Projects/CorsoJava-ContoCorrente/ExternalJAR/iText/itextpdf-5.5.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/danie/Academy-Projects/CorsoJava-ContoCorrente/ExternalJAR/log4j/log4j-1.2-api-2.19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/danie/Academy-Projects/CorsoJava-ContoCorrente/ExternalJAR/log4j/log4j-api-2.19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/danie/Academy-Projects/CorsoJava-ContoCorrente/ExternalJAR/log4j/log4j-core-2.19.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
