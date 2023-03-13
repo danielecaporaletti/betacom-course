@@ -9,11 +9,11 @@ import util.FileWriters;
 
 public class TestSelectAll {
 	
-	private static final String QUERY = "select l.titolo, a.nomeAutore, g.descrizione, e.nome, l.numPag, l.anno "
+	public static final String QUERY = "select l.titolo, a.nomeAutore, g.descrizione, e.nome, l.numPag, l.anno "
 											+ "from libri l "
 											+ "natural join autori a "
 											+ "natural join editori e "
-											+ "natural join genere g;";
+											+ "natural join generi g;";
 	
 	public static void main(String[] args) {
 		

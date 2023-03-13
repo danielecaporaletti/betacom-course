@@ -28,4 +28,28 @@ public class Libro {
 				+ "<font color='red'>Anno di pubblicazione:</font> " + this.anno + "<br><br>";
 	}
 
+	public String getTitolo() {
+		return titolo;
+	}
+
+	public String getAutore() {
+		return autore;
+	}
+
+	public String getGenere() {
+		return genere;
+	}
+
+	public String getEditore() {
+		return editore;
+	}
+
+	public int getNumPag() {
+		return numPag;
+	}
+
+	public int getAnno() {
+		return anno;
+	}
+
 }
