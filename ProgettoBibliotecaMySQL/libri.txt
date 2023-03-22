@@ -1,0 +1,60 @@
+Codice libro: 2 | Titolo: Storia della colonna infame | Autore: Manzoni | Genere: storici | Editore: Rizzoli | Pagine: 350 | Anno: 1840
+------------------------------------------------------------------------------
+Codice libro: 4 | Titolo: Anna Karenina | Autore: Tolstoj | Genere: storici | Editore: Rizzoli | Pagine: 864 | Anno: 1877
+------------------------------------------------------------------------------
+Codice libro: 5 | Titolo: Donne al potere | Autore: Vespa | Genere: romanzi | Editore: Rizzoli | Pagine: 320 | Anno: 1989
+------------------------------------------------------------------------------
+Codice libro: 7 | Titolo: Mistery | Autore: King | Genere: gialli | Editore: Rizzoli | Pagine: 512 | Anno: 2008
+------------------------------------------------------------------------------
+Codice libro: 8 | Titolo: IT | Autore: King | Genere: nuovo | Editore: Rizzoli | Pagine: 1138 | Anno: 1986
+------------------------------------------------------------------------------
+Codice libro: 9 | Titolo: Shining | Autore: King | Genere: nuovo | Editore: Rizzoli | Pagine: 688 | Anno: 1977
+------------------------------------------------------------------------------
+Codice libro: 11 | Titolo: Per chi suona la campana | Autore: Hemingway | Genere: romanzi | Editore: Rizzoli | Pagine: 480 | Anno: 1940
+------------------------------------------------------------------------------
+Codice libro: 12 | Titolo: Fiesta | Autore: Hemingway | Genere: nuovo | Editore: Rizzoli | Pagine: 247 | Anno: 1926
+------------------------------------------------------------------------------
+Codice libro: 16 | Titolo: Gita al faro | Autore: Woolf | Genere: storici | Editore: Rizzoli | Pagine: 200 | Anno: 1927
+------------------------------------------------------------------------------
+Codice libro: 18 | Titolo: Assassinio sull Orient Express | Autore: Christie | Genere: gialli | Editore: Rizzoli | Pagine: 336 | Anno: 1934
+------------------------------------------------------------------------------
+Codice libro: 19 | Titolo: Sipario | Autore: Christie | Genere: nuovo | Editore: Rizzoli | Pagine: 288 | Anno: 1975
+------------------------------------------------------------------------------
+Codice libro: 28 | Titolo: sfgf | Autore: Manzoni | Genere: sfesf | Editore: Rizzoli | Pagine: 33 | Anno: 0
+------------------------------------------------------------------------------
+Codice libro: 29 | Titolo: Odi 2 | Autore: Manzoni | Genere: romanzi | Editore: Rizzoli | Pagine: 267 | Anno: 0
+------------------------------------------------------------------------------
+Codice libro: 30 | Titolo: Odi 3 | Autore: Manzoni | Genere: romanzi | Editore: Rizzoli | Pagine: 267 | Anno: 0
+------------------------------------------------------------------------------
+Codice libro: 31 | Titolo: Odi 3 | Autore: Manzoni | Genere: romanzi | Editore: Rizzoli | Pagine: 267 | Anno: 0
+------------------------------------------------------------------------------
+Codice libro: 32 | Titolo: Odi 4 | Autore: Manzoni | Genere: romanzi | Editore: Rizzoli | Pagine: 267 | Anno: 0
+------------------------------------------------------------------------------
+Codice libro: 33 | Titolo: Odi 4 | Autore: Manzoni | Genere: romanzi | Editore: Rizzoli | Pagine: 267 | Anno: 0
+------------------------------------------------------------------------------
+Codice libro: 34 | Titolo: Odi 4 | Autore: Manzoni | Genere: romanzi | Editore: Rizzoli | Pagine: 267 | Anno: 0
+------------------------------------------------------------------------------
+Codice libro: 35 | Titolo: Odi 4 | Autore: Manzoni | Genere: romanzi | Editore: Rizzoli | Pagine: 267 | Anno: 0
+------------------------------------------------------------------------------
+Codice libro: 36 | Titolo: Odi 5 | Autore: Manzoni | Genere: romanzi | Editore: Rizzoli | Pagine: 267 | Anno: 0
+------------------------------------------------------------------------------
+Codice libro: 37 | Titolo: Odi 6 | Autore: Manzoni | Genere: romanzi | Editore: Rizzoli | Pagine: 267 | Anno: 1997
+------------------------------------------------------------------------------
+Codice libro: 38 | Titolo: Odi 6 | Autore: Manzoni | Genere: romanzi | Editore: Rizzoli | Pagine: 267 | Anno: 1997
+------------------------------------------------------------------------------
+Codice libro: 1 | Titolo: I promessi sposi | Autore: Manzoni | Genere: romanzi | Editore: Mondadori | Pagine: 700 | Anno: 1827
+------------------------------------------------------------------------------
+Codice libro: 3 | Titolo: Guerra e pace | Autore: Tolstoj | Genere: romanzi | Editore: Mondadori | Pagine: 1400 | Anno: 1869
+------------------------------------------------------------------------------
+Codice libro: 6 | Titolo: La grande tempesta | Autore: Vespa | Genere: gialli | Editore: Mondadori | Pagine: 280 | Anno: 2007
+------------------------------------------------------------------------------
+Codice libro: 10 | Titolo: Il vecchio e il mare | Autore: Hemingway | Genere: storici | Editore: Mondadori | Pagine: 127 | Anno: 1952
+------------------------------------------------------------------------------
+Codice libro: 13 | Titolo: Il nome della rosa | Autore: Eco | Genere: gialli | Editore: Mondadori | Pagine: 536 | Anno: 1980
+------------------------------------------------------------------------------
+Codice libro: 14 | Titolo: Il pendolo di Foucault | Autore: Eco | Genere: storici | Editore: Mondadori | Pagine: 641 | Anno: 1988
+------------------------------------------------------------------------------
+Codice libro: 15 | Titolo: Va dove ti porta il cuore | Autore: Tamaro | Genere: gialli | Editore: Mondadori | Pagine: 272 | Anno: 1994
+------------------------------------------------------------------------------
+Codice libro: 17 | Titolo: Orlando | Autore: Woolf | Genere: storici | Editore: Mondadori | Pagine: 310 | Anno: 1928
+------------------------------------------------------------------------------

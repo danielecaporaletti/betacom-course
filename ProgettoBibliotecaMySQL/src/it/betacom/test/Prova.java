@@ -21,12 +21,16 @@ public class Prova {
 		
 		//prova.saveListAsTxt();
 		
+		//saveAsPdf()
 		
+		//saveAsCsv
+		
+		//saveAsTxt
 		
 		
 		
 
-		
+		prova.closeAll();
 
 	}
 

@@ -1,7 +1,12 @@
 package it.betacom.service;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.util.List;
+import java.util.Properties;
 
 import it.betacom.model.libro.*;
 import util.*;
@@ -9,9 +14,26 @@ import util.*;
 public class BookPrintService implements PrintService<Libro> {
 	
 	Connection connection;
+	Properties prop;
+	InputStream input;
 	
 	public BookPrintService(Connection connection) {
 		this.connection = connection;
+		prop = new Properties();
+		
+		try {
+			File configFile = new File("config.properties");
+	        if (!configFile.exists()) {
+	            configFile.createNewFile();
+	            System.out.println("Il file di configurazione è stato creato con successo. Vai a riempirlo!!!");
+	            System.exit(0);
+	        }
+			input = new FileInputStream("config.properties");
+			prop.load(input);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
 	}
 
 	@Override
@@ -26,7 +48,7 @@ public class BookPrintService implements PrintService<Libro> {
 					+ "------------------------------------------------------------------------------\n");
 		}
 		
-		FileWriters.scriviPDF("libri.pdf", str.toString());
+		FileWriters.scriviPDF(prop.getProperty("pathPDFs"), str.toString());
 		
 	}
 
@@ -50,7 +72,7 @@ public class BookPrintService implements PrintService<Libro> {
 			data[i][6] = "" + l.getAnno();
 		}
 		
-		FileWriters.scriviCSV("libri.csv", header, data);
+		FileWriters.scriviCSV(prop.getProperty("pathCSVs"), header, data);
 		
 	}
 
@@ -66,13 +88,16 @@ public class BookPrintService implements PrintService<Libro> {
 					+ "------------------------------------------------------------------------------\n");
 		}
 		
-		FileWriters.scriviTXT("libri.txt", str.toString());
+		FileWriters.scriviTXT(prop.getProperty("pathTXTs"), str.toString());
 		
 	}
 
 	@Override
 	public void saveAsPdf(Libro libro) {
-		FileWriters.scriviPDF("libro.pdf", libro.toString());
+		
+		//DEVO METTERE GetLibro di LibroDaoImpl per poi stamparlo.
+		
+		FileWriters.scriviPDF(prop.getProperty("pathPDF"), libro.toString());
 		
 	}
 
@@ -90,14 +115,23 @@ public class BookPrintService implements PrintService<Libro> {
 		data[0][5] = "" + libro.getNumPag();
 		data[0][6] = "" + libro.getAnno();
 		
-		FileWriters.scriviCSV("libro.csv", header, data);
+		FileWriters.scriviCSV(prop.getProperty("pathCSV"), header, data);
 		
 	}
 
 	@Override
 	public void saveAsTxt(Libro libro) {
-		FileWriters.scriviTXT("libri.txt", libro.toString());
+		FileWriters.scriviTXT(prop.getProperty("pathTXT"), libro.toString());
 		
+	}
+	
+	public void closeAll() {
+		try {
+			input.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		DBHandler.closeConnection();
 	}
 
 }
