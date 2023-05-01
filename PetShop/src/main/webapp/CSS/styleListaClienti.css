@@ -1,0 +1,67 @@
+/* Regola di base per il corpo della pagina */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+/* Regola per l'intestazione della pagina */
+h1 {
+  text-align: center;
+  color: #555;
+  margin-top: 50px;
+  font-size: 3rem;
+  text-shadow: 1px 1px #ddd;
+}
+
+/* Regola per la tabella */
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Regola per la riga di intestazione della tabella */
+th {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Regola per le celle della tabella */
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Regola per la prima colonna della tabella */
+td:first-child {
+  font-weight: bold;
+}
+
+/* Regola per le righe dispari della tabella */
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Regola per le righe pari della tabella */
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
+/* Regola per il padding inferiore della tabella */
+table tfoot td {
+  padding-bottom: 20px;
+}
+
+/* Regola per il titolo del footer */
+footer h4 {
+  text-align: center;
+  color: #999;
+  font-size: 1.2rem;
+  margin-top: 50px;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="lib" path="C:/Users/Betacom/Downloads/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Betacom/Downloads/jar_files (1)/spring-jdbc-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Betacom/Downloads/jar_files (1)/spring-tx-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Betacom/Downloads/jar_files (1)/spring-core-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Betacom/Downloads/jar_files (1)/spring-beans-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Betacom/Downloads/spring-context-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Betacom/Downloads/jar_files (1)/spring-jcl-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Betacom/Downloads/spring-expression-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

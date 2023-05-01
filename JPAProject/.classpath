@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="src" path="src/main/java"/>
-	<classpathentry kind="lib" path="C:/Users/danie/DanieleWorkspace/betacom-course/JPAProject/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar"/>
-	<classpathentry kind="lib" path="C:/Users/danie/DanieleWorkspace/betacom-course/JPAProject/eclipselink-2.5.2.v20140319-9ad6abd/eclipselink/jlib/eclipselink.jar"/>
-	<classpathentry kind="lib" path="C:/Users/danie/DanieleWorkspace/betacom-course/JPAProject/eclipselink-2.5.2.v20140319-9ad6abd/eclipselink/jlib/jpa/javax.persistence_2.1.0.v201304241213.jar"/>
-	<classpathentry kind="output" path="build/classes"/>
-</classpath>

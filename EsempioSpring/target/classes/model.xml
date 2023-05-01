@@ -1,0 +1,17 @@
+<beans xmlns = "http://www.springframework.org/schema/beans"
+	xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation = "http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="cliente" class="it.betacom.model.Cliente" scope="prototype">
+		<property name="ruolo" value="programmatore"></property>
+	</bean>
+	
+	<bean id="auto" class="it.betacom.model.Auto" >
+		<constructor-arg ref="motore"/>
+	</bean>
+	
+	<bean id="motore" class="it.betacom.model.Motore">
+	</bean>
+	
+</beans>

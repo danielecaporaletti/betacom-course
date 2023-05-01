@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="lib" path="C:/drivers/aspectjrt-1.9.19.jar"/>
+	<classpathentry kind="lib" path="C:/drivers/aspectjtools-1.9.19.jar"/>
+	<classpathentry kind="lib" path="C:/drivers/aspectjweaver-1.9.19.jar"/>
+	<classpathentry kind="lib" path="C:/drivers/spring-aop-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/drivers/spring-beans-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/drivers/spring-context-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/drivers/spring-core-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/drivers/spring-expression-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/drivers/spring-jcl-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/drivers/spring-jdbc-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/drivers/spring-security-core-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/drivers/spring-tx-5.2.23.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
